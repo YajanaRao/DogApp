@@ -22,8 +22,17 @@ export default function BreedList({ navigation }) {
     }
   }, [query, data]);
 
+
+  // for debounce
+  // function searchItems(query) {
+  //   const filtered = data.data.filter((item) => item.title.includes(query));
+  //   setItems(filtered);
+  // }
+
   const onChangeSearch = (query: string) => {
     setQuery(query);
+    // understanding debounce concept here
+    // debounce(() => searchItems(query));
   };
 
   function nextPage() {
