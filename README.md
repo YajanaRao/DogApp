@@ -2,6 +2,10 @@
 
 React Native Dog App to list all the dog breeds
 
+## Download APK
+
+[download](https://github.com/YajanaRao/DogApp/blob/main/docs/app-release.apk)
+
 ## Setup
 
 ### Install the dependencies
@@ -51,7 +55,7 @@ component library
 
 - redux-toolkit
 
-State management library for react. 
+State management library for react.
 
 ## Screens
 
